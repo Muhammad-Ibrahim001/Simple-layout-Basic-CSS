@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header,
+    .footer {
+        width: 100%;
+        height: 70px;
+        background-color: lightblue;
+        color: white;
+    }
+
+    .header h1 {
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .left {
+        width: 500px;
+        height: 610px;
+        background-color: white;
+    }
+
+    .right {
+        width: 800px;
+        height: 610px;
+        background-color: white;
+    }
+
+    .rone {
+        width: 800px;
+        height: 400px;
+        background-color: gold;
+    }
+
+    .rtwo {
+        width: 800px;
+        height: 210px;
+        background-color: gray;
+        margin-top: 10px;
+    }
+
+    .same {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .lone {
+        width: 500px;
+        height: 250px;
+        background-color: pink;
+        color: white;
+    }
+
+    .lone h1 {
+        text-align: center;
+    }
+
+    .ltwo {
+        width: 500px;
+        height: 360px;
+        background-color: rgb(157, 245, 157);
+        margin-top: 10px;
+        color: white;
+    }
+
+    .ltwo h1 {
+        text-align: center;
+    }
+
+    .rrr {
+        margin-left: 10px;
+        color: white;
+        text-align: center;
+    }
+
+    .container2 {
+        width: 98%;
+        height: 200px;
+        background-color: white;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .image {
+        width: 740px;
+        height: 200px;
+        background-color: green;
+    }
+
+    .image h1 {
+        text-align: center;
+    }
+
+    .post {
+        height: 200px;
+        width: 560px;
+        background-color: rgb(222, 185, 191);
+        margin-left: 10px;
+    }
+
+    .post h1 {
+        text-align: center;
+    }
+
+    .same2 {
+        float: left;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+    .footer h1 {
+        text-align: center;
+        padding-top: 19px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <h1>Header</h1>
+    </header>
+
+    <div class="container">
+        <div class="left  same">
+            <div class="lone">
+                <h1>Hero</h1>
+            </div>
+            <div class="ltwo">
+                <h1>Sidebar</h1>
+            </div>
+        </div>
+        <div class="right same">
+            <div class="rone rrr">
+                <h1>Main Content</h1>
+                <p>I start the web Development in the intouch solution in skardu</p>
+            </div>
+            <div class="rtwo rrr">
+                <h1>Extra Content</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container2">
+        <div class="image same2">
+            <h1>
+                Related Images
+            </h1>
+        </div>
+        <div class="post same2">
+            <h1>Related <br>
+                Posts</h1>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>

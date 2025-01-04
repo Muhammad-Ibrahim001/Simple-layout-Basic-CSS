@@ -1,2 +1,3 @@
 # Simple-layout-Basic-CSS
 This is the simple layout of html and basic css...
+Basic layout using html and basic css properties.
